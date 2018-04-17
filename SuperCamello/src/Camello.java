@@ -19,22 +19,22 @@ public class Camello {
 		this.nombre = nombre;
 	}
 	public void saludo(){
-		System.out.println("Hola, soy un camello, y me llamo "+ nombre+" ¿que te interesa?, tengo desde pirulas de PHP hasta dosis de Assembly");
+		System.out.println("Hola, soy un camello, y me llamo "+ nombre+" Â¿que te interesa?, tengo desde pirulas de PHP hasta dosis de Assembly");
 		System.out.println("(Puedes poner una frase como: 'Dame un poco de php porfa' O CUALQUIER COSA QUE SE TE OCURRA)");
 	}
 	public void inicializarMapa(){
 		mapa = new HashMap<String,String>();
-		mapa.put("assembly", "Estás seguro de que quieres Assembly?, son dosis muy potentes, puede que tu cerebro explote.");
-		mapa.put("php", "Buuuu eres un débil, hubiese gozado más que me hubieses pedido Ruby on Rails");
+		mapa.put("assembly", "EstÃ¡s seguro de que quieres Assembly?, son dosis muy potentes, puede que tu cerebro explote.");
+		mapa.put("php", "Buuuu eres un dÃ©bil, hubiese gozado mÃ¡s que me hubieses pedido Ruby on Rails");
 		mapa.put("c", "Que atrevido, C goza");
-		mapa.put("c++", "Yea, tu si que sabes, C++ es la caña");
+		mapa.put("c++", "Yea, tu si que sabes, C++ es la caÃ±a");
 		mapa.put("java", "Bueno, Java esta bien");
-		mapa.put("ruby on rails", "jeje, pretendes ganar 40000€ al mes con ruby eeee, ya verás que colocón te dan");
-		mapa.put("tonto", "tonto tu");
+		mapa.put("ruby on rails", "jeje, pretendes ganar 40000â‚¬ al mes con ruby eeee, ya verÃ¡s que colocÃ³n te dan");
+		mapa.put("tonto", "tonto tu, joputa maricÃ³ ke t rajo");
 		mapa.put("subnormal", "rebota, rebota y en tu cara explota");
 		mapa.put("gilipollas", "rebota, rebota y en tu cara explota");
-		mapa.put("cobol", "vas a trabajar en alguna app para un banco?, en fin, disfruta del colocón");
-		mapa.put("javascript", "mmm conozco a una persona que te podría ayudar con ello, se llama Antonio, su telefono es: 555-12321312");
+		mapa.put("cobol", "vas a trabajar en alguna app para un banco?, en fin, disfruta del colocÃ³n");
+		mapa.put("javascript", "mmm conozco a una persona que te podrÃ­a ayudar con ello, se llama Antonio, su telefono es: 555-12321312");
 		mapa.put("css", "o dios santo, ten cuidado");
 	}
 	
@@ -49,7 +49,7 @@ public class Camello {
 			}
 		}
 		if(respondido){
-			System.out.println("¿Qué más deseas?");
+			System.out.println("Â¿QuÃ© mÃ¡s deseas?");
 		}
 		else{
 			System.out.println("No tengo de eso");
