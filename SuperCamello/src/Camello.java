@@ -1,7 +1,6 @@
 import java.util.Scanner;
 import java.util.HashMap;
 //pequeña modificación
-//pequeña modificación 2
 public class Camello {
 	private String nombre;
 	private static Scanner entrada;
